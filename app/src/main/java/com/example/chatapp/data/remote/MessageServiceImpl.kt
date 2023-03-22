@@ -7,7 +7,7 @@ import io.ktor.client.request.*
 import java.util.Collections.list
 import javax.inject.Inject
 
-class MessageServiceImpl @Inject constructor(
+class MessageServiceImpl (
     private val client: HttpClient
 ): MessageService {
 
