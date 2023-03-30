@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class UsernameViewModel @Inject constructor(
+class UsernameViewModel (
 
 ): ViewModel() {
     private val _usernameText = mutableStateOf("")
